@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ansh Sita Shreeram Thakur - SMYP ABVP RSS Member</title>
+    <meta name="description" content="Profile of Ansh Sita Shreeram Thakur, Social Member of Youth Parliament (SMYP), ABVP, RSS, and Nagpur Vidyarthi Morcha. Discover his contributions.">
+    <meta name="keywords" content="Ansh Sita Shreeram Thakur, SMYP, ABVP, RSS, Nagpur Vidyarthi Morcha, Youth Parliament">
+    <meta name="author" content="Ansh Sita Shreeram Thakur">
+    <meta property="og:title" content="Ansh Sita Shreeram Thakur - SMYP ABVP RSS Member">
+    <meta property="og:description" content="Learn about Ansh Sita Shreeram Thakur's roles in SMYP, ABVP, RSS, and Nagpur Vidyarthi Morcha.">
+    <meta property="og:image" content="https://via.placeholder.com/300"> <!-- Replace with your photo URL -->
+    <meta property="og:url" content="https://yourusername.github.io/ansh-profile"> <!-- Replace with your live URL -->
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin: 20px; }
+        .profile { max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #ccc; border-radius: 10px; }
+        #profileImg { width: 300px; height: 300px; border-radius: 50%; margin: 20px auto; display: block; cursor: pointer; transition: transform 0.2s; }
+        #profileImg:hover { transform: scale(1.05); } /* Slight hover effect */
+        h1 { color: #333; }
+        p { color: #666; line-height: 1.6; }
+        
+        /* Modal styles */
+        .modal { display: none; position: fixed; z-index: 1; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.8); }
+        .modal-content { margin: auto; display: block; width: 80%; max-width: 700px; }
+        .close { position: absolute; top: 15px; right: 35px; color: #f1f1f1; font-size: 40px; font-weight: bold; cursor: pointer; }
+        .close:hover, .close:focus { color: #bbb; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="profile">
+        <img id="profileImg" src="C:\Users\user\Downloads\DSC_7045.JPG"onclick="openModal()"> <!-- Replace with your photo URL -->
+        <h1>Ansh Sita Shreeram Thakur</h1>
+        <p>Social Member of Youth Parliament (SMYP),<br>
+        Akhil Bhartiya Vidyarthi Parishad (ABVP),<br>
+        Rashtriya Swayamsevak Sangh Member (RSS),<br>
+        Nagpur Vidyarthi Morcha</p>
+        <p>Ansh Sita Shreeram Thakur is actively involved in youth empowerment, student welfare, and community development through his roles in SMYP, ABVP, RSS, and Nagpur Vidyarthi Morcha.</p>
+    </div>
+
+    <!-- Modal for enlarged photo -->
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="img01" src="C:\Users\user\Downloads\DSC_7045.JPG"> <!-- Same as above, replace with your photo URL -->
+    </div>
+
+    <script>
+        // Function to open modal
+        function openModal() {
+            document.getElementById("myModal").style.display = "block";
+        }
+
+        // Function to close modal
+        function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+        }
+
+        // Close modal when clicking outside the image
+        window.onclick = function(event) {
+            if (event.target == document.getElementById("myModal")) {
+                closeModal();
+            }
+        }
+    </script>
+</body>
+</html>
